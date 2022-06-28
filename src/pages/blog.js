@@ -1,14 +1,12 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-function AboutPage() {
+function BlogPage() {
   return (
-    <Layout pageTitle="About Me">
-      <p>
-        About Page
-      </p>
+    <Layout pageTitle="My Blog Posts">
+      <p>My cool posts will go in here</p>
     </Layout>
   );
 }
 
-export default AboutPage;
+export default BlogPage;
